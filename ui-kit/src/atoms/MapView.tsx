@@ -7,13 +7,13 @@ const useStyles = makeStyles(() => {
   };
 });
 
-type ExampleProps = {
+type MapViewProps = {
   example?: string;
 };
 
-export const Example: React.FC<ExampleProps> = (props) => {
+export const MapView: React.FC<MapViewProps> = (props) => {
   const cs = useStyles();
-  const { example = 'blah blah blah' } = props;
+  const { example = 'this is the map view' } = props;
 
   return (
     <Grid container className={cs.root}>
