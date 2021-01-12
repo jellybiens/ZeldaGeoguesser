@@ -7,13 +7,13 @@ const useStyles = makeStyles(() => {
   };
 });
 
-type ExampleProps = {
+type PinsProps = {
   example?: string;
 };
 
-export const Example: React.FC<ExampleProps> = (props) => {
+export const Pins: React.FC<PinsProps> = (props) => {
   const cs = useStyles();
-  const { example = 'blah blah blah' } = props;
+  const { example = 'this is the pins' } = props;
 
   return (
     <Grid container className={cs.root}>

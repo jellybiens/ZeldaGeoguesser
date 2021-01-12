@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import { Container } from '@material-ui/core';
-import { Example } from '@ui-kit';
+import { MapView } from '@ui-kit';
 
-const title = 'Example';
+const title = 'MapView';
 
 const Story = () => {
   return (
     <Container title={title}>
-      <Example />
+      <MapView />
     </Container>
   );
 };
