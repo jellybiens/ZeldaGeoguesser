@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+
     "esModuleInterop": true,
     "jsx": "react",
     "baseUrl": ".",
@@ -12,7 +13,8 @@
       "@types": ["./types"]
     },
     "typeRoots": [
-      "node_modules/@types"
+      "node_modules/@types",
+      "./ui-kit/src/*/*.d.ts"
     ],
     "target": "es5"
   },

@@ -1,3 +1,3 @@
 export * from './atoms/Example';
 export * from './atoms/MapView';
-export * from './atoms/Pins';
+export * from './atoms/MapMarker';
