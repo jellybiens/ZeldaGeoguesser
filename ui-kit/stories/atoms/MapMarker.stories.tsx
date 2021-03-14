@@ -22,7 +22,7 @@ const Story = () => {
 
   return (
     <Container title={title}>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} style={{ backgroundColor: 'black' }}>
         {renderMapMarkers()}
         <img src={Icons[10]} />
       </Grid>
